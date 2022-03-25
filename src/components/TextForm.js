@@ -59,19 +59,19 @@ export default function TextForm(props) {
             placeholder="Enter the text here"
           ></textarea>
         </div>
-        <button className="btn btn-primary mx-2" onClick={handleUpClick}>
+        <button className="btn btn-primary mx-2 my-1" onClick={handleUpClick}>
           Convert to UPPERCASE
         </button>
-        <button className="btn btn-primary mx-2" onClick={handleLoClick}>
+        <button className="btn btn-primary mx-2 my-1" onClick={handleLoClick}>
           Convert to Lowercase
         </button>
-        <button className="btn btn-primary mx-2" onClick={handleCopy}>
+        <button className="btn btn-primary mx-2 my-1" onClick={handleCopy}>
           CopyText
         </button>
-        <button className="btn btn-primary mx-2" onClick={handleClearClick}>
+        <button className="btn btn-primary mx-2 my-1" onClick={handleClearClick}>
           ClearText
         </button>
-        <button className="btn btn-primary mx-2" onClick={handleExtraSpaces}>
+        <button className="btn btn-primary mx-2 my-1" onClick={handleExtraSpaces}>
           Remove Spaces
         </button>
       </div>
